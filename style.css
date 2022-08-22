@@ -1,0 +1,112 @@
+*{
+    font-family: 'Inconsolata', monospace;
+}
+
+body{
+    background: #E5E5E5;
+    padding: 2.5%;
+}
+
+header img{
+    float: left;
+    
+}
+
+.titulo{
+    font-size: 36px;
+    font-weight: bold;
+    color: #0A3871;
+    margin-top: 30px;
+    font-family: 'Inconsolata', monospace;
+}
+
+main{
+    clear: both;
+}
+
+.entrada{
+    float: left;
+    width: 60%;
+}
+
+#texto{
+    margin: 25px 25px 3px 50px;
+    resize: none;
+    width: 80%;
+    height: 50%;
+    border-color: #0A3871;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    color: #0A3871;
+}
+
+.instrucciones-img{
+    width: 10px;
+    margin-left: 50px;
+}
+
+.instrucciones{
+    font-size: 15px;
+    display: inline-block;
+}
+
+.encriptar-boton{
+    width: 20%;
+    padding: 17px;
+    font-size: 1.5vw;
+    color: white;
+    background: #0A3871;
+    border-radius: 15px;
+    margin-top: 2%;
+    margin-left: 20%;
+    transition: 1s;
+}
+
+.encriptar-boton:hover{
+    transform: scale(1.2);
+}
+
+.desencriptar-boton{
+    width: 20%;
+    padding: 17px;
+    font-size: 1.5vw;
+    color: #0A3871;
+    background: #D8DFE8;
+    border-color: #0A3871;
+    border-radius: 15px;
+    margin-top: 2%;
+    margin-right: 20%;
+    margin-left: 10%;
+    transition: 1s;
+}
+
+.desencriptar-boton:hover{
+    transform: scale(1.2);
+}
+
+.salida{
+    float: right;
+    width: 35%;
+    border: 3px solid #0A3871;
+    border-radius: 10px;
+    height: 80vh;
+    padding: 1%;
+   
+}
+
+.primer-salida>img{
+    width: 85%;
+}
+
+.primer-salida>h2{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.primer-salida>p{
+    font-size: 15px;
+    text-align: center;
+}
