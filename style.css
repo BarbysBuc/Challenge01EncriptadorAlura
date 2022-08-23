@@ -90,7 +90,6 @@ main{
     width: 35%;
     border: 3px solid #0A3871;
     border-radius: 10px;
-    height: 80vh;
     padding: 1%;
     background: white;
    
@@ -139,4 +138,25 @@ main{
 
 .segunda-salida{
     display: none;
+}
+
+@media screen and (max-width:480px){
+    .entrada{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .encriptar-boton{
+        margin-left: 28%;
+        margin-right: 0%;
+    }
+
+    .desencriptar-boton{
+        margin-right: 1%;
+    }
+
+    .salida{
+        width: 83%;
+        margin-right: 3%;
+    }
 }
