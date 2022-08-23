@@ -33,12 +33,11 @@ main{
     margin: 25px 25px 3px 50px;
     resize: none;
     width: 80%;
-    height: 50%;
     border-color: #0A3871;
     border-width: 3px;
     border-radius: 10px;
     padding: 10px;
-    font-size: 16px;
+    font-size: 2vw;
     color: #0A3871;
 }
 
@@ -93,6 +92,7 @@ main{
     border-radius: 10px;
     height: 80vh;
     padding: 1%;
+    background: white;
    
 }
 
@@ -109,4 +109,34 @@ main{
 .primer-salida>p{
     font-size: 15px;
     text-align: center;
+}
+
+#resultado{
+    resize: none;
+    width: 80%;
+    border-color: white;
+    padding: 10px;
+    font-size: 2vw;
+    color: #0A3871;
+}
+.copiar-boton{
+    width: 20%;
+    padding: 17px;
+    font-size: 1.5vw;
+    color: #0A3871;
+    background: #D8DFE8;
+    border-color: #0A3871;
+    border-radius: 15px;
+    margin-top: 2%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    transition: 1s;
+}
+
+.copiar-boton:hover{
+    transform: scale(1.2);
+}
+
+.segunda-salida{
+    display: none;
 }
