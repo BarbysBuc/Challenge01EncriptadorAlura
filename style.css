@@ -139,7 +139,7 @@ main{
 .segunda-salida{
     display: none;
 }
-
+/*intentando hacer responsive*/
 @media screen and (max-width:480px){
     .entrada{
         width: 100%;
